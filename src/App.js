@@ -54,8 +54,8 @@ function App() {
         <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>status message: </b> {statusMessage}</p>
         <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>user id: </b> {userId}</p>
 
-        <button onClick={() => logout()} style={{ /* From cssbuttons.io by @adamgiebl */
-button {
+        <button onClick={() => logout()} style={{ button {
+ border: none;
  color: #090909;
  padding: 0.7em 1.7em;
  font-size: 18px;
@@ -67,14 +67,12 @@ button {
              -6px -6px 12px #ffffff;
 }
 
-button:hover {
- border: 1px solid white;
-}
-
 button:active {
- box-shadow: 4px 4px 12px #c5c5c5,
-             -4px -4px 12px #ffffff;
-}}}>Logout</button>
+ color: #666;
+ box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
+}}>Logout</button>
       </div>
       </header>
     </div>
