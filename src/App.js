@@ -46,10 +46,10 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div style={{ textAlign: "center" }}>
-        <h1>React with LINE Login test bot1</h1>
+        <h1>ยินดีต้อนรับสมาชิกใหม่</h1>
         <hr/>
         <img src={pictureUrl} width="300px" height="300px"/>
-        <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>id token: </b> {idToken}</p>
+//         <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>id token: </b> {idToken}</p>
         <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>display name: </b> {displayName}</p>
         <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>status message: </b> {statusMessage}</p>
         <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>user id: </b> {userId}</p>
